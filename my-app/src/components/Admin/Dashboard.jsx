@@ -5,7 +5,7 @@
     import '../../style.css';
     import axios from "axios";
     import { UserContext } from '../../UserContext'; // Import UserContext
-    import Logo from '../../assets/Logo.png'
+  
 
     const Dashboard = () => {
         const navigate = useNavigate();
