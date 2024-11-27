@@ -5,7 +5,7 @@ import './CSS/Employee.css'; // Import custom CSS file
 
 const Employee = () => {
   const [employees, setEmployees] = useState([]);
-  const navigate = useNavigate();
+ 
 
   useEffect(() => {
     axios.get("/employee")
