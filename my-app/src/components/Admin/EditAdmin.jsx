@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
-import toast from 'react-hot-toast';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Employee/CSS/UpdateEmployee.css'; // Import custom CSS file
 
